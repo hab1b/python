@@ -26,17 +26,7 @@ A desktop application that allows users to test their typing speed by comparing 
   1. Navigate to the `typing_speed_test` directory.
   2. Run the application with `python typing_speed_test.py`.
 
-### 3. **PDF to Audiobook Converter**
-A Python script that converts text from a PDF document into an audiobook using the Google Text-to-Speech API.
-
-- **Features**:
-  - Extracts text from PDF files
-  - Converts text to speech using the Google Cloud Text-to-Speech API
-- **Instructions**:
-  1. Set up your Google Cloud credentials.
-  2. Run the script with `python pdf_to_audiobook.py`.
-
-### 4. **NBA Player Stats Scraper**
+### 3. **NBA Player Stats Scraper**
 A web scraper that extracts NBA player statistics from Basketball Reference and saves them into a CSV file using BeautifulSoup and Pandas.
 
 - **Features**:
@@ -59,17 +49,6 @@ A Flask-based web application that allows users to enter a barcode and retrieve 
   3. Add your Cloudmersive API key in `app.py`.
   4. Run the Flask app with `python app.py`.
 
-### 6. **E-Commerce Website (Flask + Stripe)**
-A simple eCommerce web application with user authentication, a cart system, and real payment processing using Stripe.
-
-- **Features**:
-  - User registration and login
-  - Add products to cart and checkout using Stripe
-- **Instructions**:
-  1. Navigate to the `ecommerce_app` directory.
-  2. Install dependencies with `pip install -r requirements.txt`.
-  3. Add your Stripe API keys in `app.py`.
-  4. Run the Flask app with `python app.py`.
 
 ## How to Contribute
 
