@@ -83,7 +83,6 @@ A Python script that organizes your Downloads folder by automatically sorting fi
   1. Navigate to the `downloads_organizer` directory.
   2. Edit the path in the `organize_downloads.py` script to point to your Downloads folder.
   3. Run the script with `python organize_downloads.py`.
-  4. (Optional) Automate the script using Task Scheduler (Windows) or Cron (Mac/Linux).
 
 ## How to Contribute
 
