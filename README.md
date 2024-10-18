@@ -37,7 +37,7 @@ A web scraper that extracts NBA player statistics from Basketball Reference and 
   2. Install the required packages with `pip install -r requirements.txt`.
   3. Run the script with `python scrape.py`.
 
-### 5. **Barcode Lookup (Flask + Cloudmersive API)**
+### 4. **Barcode Lookup (Flask + Cloudmersive API)**
 A Flask-based web application that allows users to enter a barcode and retrieve product information using the Cloudmersive Barcode API.
 
 - **Features**:
@@ -49,6 +49,28 @@ A Flask-based web application that allows users to enter a barcode and retrieve 
   3. Add your Cloudmersive API key in `app.py`.
   4. Run the Flask app with `python app.py`.
 
+
+### 5. **Watermark GUI (Tkinter + Pillow)**
+A desktop application built using Tkinter that allows users to upload an image and add a text watermark automatically.
+
+- **Features**:
+  - Upload any image
+  - Add a custom text watermark to the image
+  - Save the watermarked image
+- **Instructions**:
+  1. Navigate to the `watermark_GUI` directory.
+  2. Install the required libraries with `pip install -r requirements.txt`.
+  3. Run the application with `python watermark_app.py`.
+
+### 6. **Morse Code Converter (Command-Line)**
+A Python command-line program that converts any string input into Morse code.
+
+- **Features**:
+  - Converts text to Morse code
+  - Can handle letters, numbers, and common punctuation
+- **Instructions**:
+  1. Navigate to the `morse_code_converter` directory.
+  2. Run the script with `python morse_code_converter.py`.
 
 ## How to Contribute
 
