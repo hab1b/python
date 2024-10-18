@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode Lookup</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .result {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Barcode Lookup</h1>
+        <form method="POST">
+            <input type="text" name="barcode" placeholder="Enter Barcode" required>
+            <button type="submit">Look Up</button>
+        </form>
+
+        <!-- Display product information -->
+        {% if product_data %}
+            <div class="result">
+                <h2>Product Information for Barcode {{ barcode }}</h2>
+                <p><strong>Name:</strong> {{ product_data['ProductName'] }}</p>
+                <p><strong>Manufacturer:</strong> {{ product_data['Manufacturer'] }}</p>
+                <p><strong>Category:</strong> {{ product_data['Category'] }}</p>
+                <p><strong>Description:</strong> {{ product_data['Description'] }}</p>
+            </div>
+        {% elif error %}
+            <div class="result">
+                <p style="color: red;">{{ error }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>
