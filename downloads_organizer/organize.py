@@ -1,8 +1,8 @@
 import os
 import shutil
 
-# Define the path to your Downloads folder
-DOWNLOADS_FOLDER = '/Users/jorgehabib/Downloads'
+#path to Downloads folder
+DOWNLOADS_FOLDER = ''
 
 # Define file types and their corresponding folders
 file_types = {
