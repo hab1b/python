@@ -3,8 +3,8 @@ import requests
 
 app = Flask(__name__)
 
-# Your Cloudmersive API Key (replace with your actual API key)
-API_KEY = 'b13de2a0-aba5-4eb1-b18a-d364bbc98a2f'
+#Cloudmersive API Key
+API_KEY = ''
 
 # API endpoint for barcode lookup
 CLOUDMERSIVE_URL = 'https://api.cloudmersive.com/barcode/lookup/ean'
